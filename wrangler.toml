@@ -10,3 +10,5 @@ binding = "ASSETS"
 [vars]
 NEXT_PUBLIC_APP_URL = "https://mercedes-benz-links.workers.dev"
 ALLOWED_ORIGINS = "https://mercedes-benz-links.workers.dev"
+NEXT_PUBLIC_SUPABASE_URL = "https://rhpchlwpvylbmiutaixf.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_npDWLc06fQphA7qJnEoPHQ_uoJ4aEgE"
