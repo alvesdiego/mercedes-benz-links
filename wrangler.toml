@@ -1,0 +1,14 @@
+name = "mercedes-benz-links"
+main = ".open-next/worker.js"
+compatibility_date = "2026-05-25"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[vars]
+NEXT_PUBLIC_SUPABASE_URL = "https://YOUR_PROJECT.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "YOUR_ANON_KEY"
+NEXT_PUBLIC_APP_URL = "https://mercedes-benz-links.YOUR_WORKER.workers.dev"
+ALLOWED_ORIGINS = "https://mercedes-benz-links.YOUR_WORKER.workers.dev"
