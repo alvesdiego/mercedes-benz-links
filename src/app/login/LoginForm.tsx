@@ -25,7 +25,7 @@ export default function LoginForm() {
     const { error } = await signIn(email, password)
 
     if (error) {
-      setError('E-mail ou senha incorretos. Verifique suas credenciais.')
+      setError(`Erro ao fazer login: ${error.message} (${error.status ?? 'sem status'})`)
       setLoading(false)
       return
     }
