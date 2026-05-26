@@ -1,6 +1,6 @@
 name = "mercedes-benz-links"
 main = ".open-next/worker.js"
-compatibility_date = "2026-05-25"
+compatibility_date = "2024-12-30"
 compatibility_flags = ["nodejs_compat"]
 
 [assets]
