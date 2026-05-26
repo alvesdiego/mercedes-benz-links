@@ -1,6 +1,7 @@
 import { Suspense } from 'react'
 import LoginForm from './LoginForm'
 
+export const dynamic = 'force-dynamic'
 export const metadata = { title: 'Login' }
 
 export default function LoginPage() {
